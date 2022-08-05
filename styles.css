@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    font-weight: normal;
+    transition: font-weight 0.2;
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-form {
+    width: 1rem;
+    visibility: hidden;
+    transition: width 1s;
+    transition: visibility 0s;
+}
+
+.nav-form:hover {
+    visibility: visible;
+    width: 10rem;
+}
